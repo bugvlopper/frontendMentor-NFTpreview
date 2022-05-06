@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#card{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+p {
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.imgHover{
+    height: 302px; /* I set this fix value cause without them i got a line that i don't want,
+    an didn't found au to fix it in a better way*/
+}
+.imgHover:hover{
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    background-image: url('../images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgHover:hover > img{
+    opacity: 0.5;
+}
+h2{
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.mainImage{
+    width: 100%;
+    border-radius: 10px;
+
+}
+#priceXtime{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#priceXtime span{
+    display: flex;
+}
+#priceXtime img{
+    height: 1.2rem;
+}
+#eth p{
+    color: hsl(178, 100%, 50%);
+    padding-left: 0.5rem;
+    font-weight: 400;
+}
+#clock p{
+    padding-left: 0.5rem;
+}
+#author{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 0.75rem;
+}
+#author img{
+    width: 12%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.attribution{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+}
