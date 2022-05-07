@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/bugvlopper/frontendMentor-NFTpreview](https://github.com/bugvlopper/frontendMentor-NFTpreview)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://bugvlopper.github.io/frontendMentor-NFTpreview/](https://bugvlopper.github.io/frontendMentor-NFTpreview/)
 
 ## My process
 
@@ -39,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@bugvlopper](https://www.frontendmentor.io/profile/bugvlopper)
 
